@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+    <head>
+        <title>
+            Change paragraph color
+        </title>
+</head>
+<body>
+    <h1>
+        EECS 348 Lab 7 Practice 2
+    </h1>
+
+
+
+<style>
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#paragraph {
+    border-style: solid;
+    border-width: 5px;
+}
+
+button {
+    padding: 4px;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+button:hover {
+    border-radius: 0;
+}
+
+input {
+    margin: 10px;
+}
+</style>
+
+
+<div id="paragraph">
+    Watch me closely😈
+</div>
+
+<script type="text/javascript" src="pColor.js"></script>
+Border red-value(0-255): <input type="text" id="redValue" value=""> <br>
+Border green-value(0-255): <input type="text" id="greenValue" value=""> <br>
+Border blue-value(0-255): <input type="text" id="blueValue" value=""> <br>
+Border Width: <input type="text" id="widthOfBorder" value=""> <br>
+Background red-value(0-255): <input type="text" id="rBG" value=""> <br>
+Background green-value(0-255): <input type="text" id="gBG" value=""> <br>
+Background blue-value(0-255): <input type="text" id="bBG" value=""> <br>
+<button onclick="changeParagraphColor()">Change the color!</button> <br>
+
+
+</body>
+
+</html>
