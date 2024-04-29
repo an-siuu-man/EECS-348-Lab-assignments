@@ -1,0 +1,76 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    background: linear-gradient(to bottom, rgb(87, 87, 87), rgb(0, 0, 0));
+    height: 150%;
+    margin: 10px;
+}
+
+#title {
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+#title_intro {
+    font-weight: 600;
+    text-align: center;
+    margin-top: -5px;
+}
+#photo {
+    height: 400px;
+    width: 400px;
+    display: block;
+    position: relative;
+    margin-left: 77%;
+    margin-top: -4%;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+#photo:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#content1 {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: -15%;
+    width: 75%;
+    font-size: larger;
+}
+
+#content2 { 
+    font-family: 'Courier New', Courier, monospace;
+    width: 75%;
+    font-size: large;
+}
+
+a {
+    color: aliceblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 100;
+    font-size: larger;
+    text-decoration: none;
+    border: 2px solid orange;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 1px;
+    transition: all 0.2s ease-in;
+    margin-top: 5px;
+}
+li {
+    width: 75%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 0px;
+}
+
+video {
+    width: 200px;
+    transition: all 0.3s ease-in;
+}
+
